@@ -478,11 +478,44 @@ section {
 
 /*--------------------------------------------------------------
 # Skills Section
-
-
-
-
 --------------------------------------------------------------*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif; 
+}
+
+.skillz {
+  display: flex;
+  /* justify-content: center; */
+  flex-flow: wrap;
+  justify-content: center; 
+}
+
+.skillz-category {
+  margin: 0 30px;
+}
+
+.skillz-category ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media (max-width: 540px){
+  .skillz-category {
+       flex-basis: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
